@@ -54,7 +54,7 @@ PATCH and DELETE. The PATCH endpoint MUST use JSON Merge Patch.
 
 -Endpoints returning collections of data (getAll) uses Pagination
  
- - at least one test with RestAssured per each endpoint.
+-at least one test with RestAssured per each endpoint.
  
  
  
