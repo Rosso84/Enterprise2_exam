@@ -38,9 +38,6 @@ A bash Cli (Gitbash for windows or built in terminal for linux/mac)
 
 Module: Flight-service
 
-My goals was to at least do all of the requirement in 3, but unfortunetely i did not get in time to do so, but i did create 
-a working docker-compose file wich runs a real postgres database.
-
 The application has one microservice the following funtionaliti :
 
 -at least one endpoint per main HTTP method, ie, GET, POST, PUT,
