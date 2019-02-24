@@ -73,9 +73,8 @@ PATCH and DELETE. The PATCH endpoint MUST use JSON Merge Patch.
    
    http://localhost:8080/swagger-ui.html
  
- 2.Run it in a container with docker by navigating to root of the project and use a terminal to run command
-   'docker-compose up --build'. this wild build an image and use a real postgres database.
-    The applicaion will  then be available at:    
+ 2.Or run a Dockerfile in a  glasfish container with docker-compose by navigating to root of the project and use a terminal      to run command 'docker-compose up --build'. this will build an image and use a real postgres database.
+   The applicaion will  then be available at:    
    
    http://localhost:8080/swagger-ui.html
   
