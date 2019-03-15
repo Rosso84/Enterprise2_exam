@@ -37,8 +37,7 @@ A bash Cli (Gitbash for windows or built in terminal for linux/mac)
 ## Given tasks
 
 Within 3 days we had to:
-1
-. Provide a readme.md file in the main root folder of your project (i.e., same place as
+1. Provide a readme.md file in the main root folder of your project (i.e., same place as
 the root pom.xml file). In such file, you must briefly discuss your solution, providing
 any info you deem important. If you do not attempt to do some of the requirements,
 you must state so in the readme.md file, e.g., “I did not do requirement X, Y and Z”.
@@ -72,7 +71,7 @@ WireMock in the integration tests to mock it.
 i. Configure Maven to build a self-executable uber/fat jar for the service.
 j. Write a Docker file for the service.
 
-3.Your microservices should be accessible only from a single entry point, i.e., an API
+3.The microservices should be accessible only from a single entry point, i.e., an API
 Gateway.
 a. You need at least one REST API service that is started more than once (i.e.,
 more than one instance in the Docker-Compose file), and load balanced with
@@ -84,7 +83,7 @@ the Gateway, Eureka, 2 instances of the REST API, and a PostgreSQL
 database. All end-to-end tests need to be in their own folder/module (as in the
 examples shown in class).
 
-4.You need to have security mechanisms (using Spring Security) in place to protect
+4.One need to have security mechanisms (using Spring Security) in place to protect
 your REST APIs.
 a. You need to create the concept of “user” in your microservices. You will need
 to create an API with database to handle registration and login of users. Note:
@@ -95,7 +94,7 @@ isolation.
 c. Write at least one end-to-end test (using Docker-Compose) to show that the
 distributed session-based authentication is working.
 
-5.You need at least one communication relying on AMQP.
+5.One need at least one communication relying on AMQP.
 a. Write a new service (can be as simple as a REST API with a single endpoint).
 b. Make at least one communication from the main REST API to such new
 service, using RabbitMQ.
