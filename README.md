@@ -137,12 +137,12 @@ PATCH and DELETE. The PATCH endpoint MUST use JSON Merge Patch.
  
  Then there are 2 ways to run the application and open swagger:
  
- 1.You can manually run the application by navigating to Flight-service/Test/flightservice/
+ 1.  You can manually run the application by navigating to Flight-service/Test/flightservice/
    and rightclick on LocalApplicationRunner and run.
    
    The applicaion will then be available at:  http://localhost:8080/swagger-ui.html
  
- 2.Or run a Dockerfile in a  glasfish container with docker-compose by navigating to root of the project and use a terminal      to run command 'docker-compose up --build'. this will build an image and use a real postgres database.
+ 2.  Or run a Dockerfile in a  glasfish container with docker-compose by navigating to root of the project and use a terminal      to run command 'docker-compose up --build'. this will build an image and use a real postgres database.
    The applicaion will  then be available at: http://localhost:8080/swagger-ui.html
   
  
