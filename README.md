@@ -122,7 +122,7 @@ PATCH and DELETE. The PATCH endpoint MUST use JSON Merge Patch.
 -Provides Swagger documentation for all endpoints
 
 -Provides a starting class that can be used to start the application and see
- the UI for the Swagger documentation that uses H2 an embedded SQL database .
+ the UI for the Swagger documentation that uses H2, an embedded SQL database for testing, and Postgres for real database  .
  
 -Each endpoint uses Wrapped Responses.
 
@@ -138,15 +138,11 @@ PATCH and DELETE. The PATCH endpoint MUST use JSON Merge Patch.
  Then there are 2 ways to run the application and open swagger:
  
  1.You can manually run the application by navigating to Flight-service/Test/flightservice/
-   and rightclick on LocalApplicationRunner and run.  This will use an embedded database H2 for testing .
+   and rightclick on LocalApplicationRunner and run.
    
-   The applicaion will then be available at:
-   
-   http://localhost:8080/swagger-ui.html
+   The applicaion will then be available at:  http://localhost:8080/swagger-ui.html
  
  2.Or run a Dockerfile in a  glasfish container with docker-compose by navigating to root of the project and use a terminal      to run command 'docker-compose up --build'. this will build an image and use a real postgres database.
-   The applicaion will  then be available at:    
-   
-   http://localhost:8080/swagger-ui.html
+   The applicaion will  then be available at: http://localhost:8080/swagger-ui.html
   
  
