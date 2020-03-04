@@ -128,9 +128,8 @@ PATCH and DELETE. The PATCH endpoint MUST use JSON Merge Patch.
  
  
  ## Running the aplication
- First Run maven clean install.
- 
- Then there are 2 ways to run the application and open swagger:
+ First Run 'maven clean install' (add '-DSkipTests' at the end if you would like to skip test for faster install).
+ There are 2 ways to run the application and open swagger:
  
  1.  You can manually run and test the application by navigating to Flight-service/Test/flightservice/
    and rightclick on LocalApplicationRunner and then run. This will use the H2 database. 
